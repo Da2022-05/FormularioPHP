@@ -1,12 +1,12 @@
 <?php
   class Database{
         public  $db; //controldores db
-        private static $dns = "mysql:localhost;dbname=Nueva";
+        private static $dns = "mysql:host=localhost;dbname=prueba";
         private static $user = "root"; //usuario de la conexion
         private static $pass = ""; //contraseña del usuario
         private static $instance; //instancia de la conexion 
     
-        public function __construct__(){
+        public function __construct(){
           $this->db = new PDO(self::$dns, self::$user, self::$pass);
         }
 

@@ -16,5 +16,5 @@
       $confirm = 2; // uno o mas campos estan vacios
   }
   
-  header('Location: ../idex.php?confirm='.$confirm)
+  header('Location: ../index.php?confirm='.$confirm)
 ?>

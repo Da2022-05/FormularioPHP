@@ -20,7 +20,7 @@
                         echo '<div class="alert alert-danger" role="alert">Dato no ingresado</div>';
                     }
                     if ($_GET['confirm'] === "1"){
-                        echo '<div class="alert alert-danger" role="alert">Dato ingresado correctamente</div>';  
+                        echo '<div class="alert alert-success" role="alert">Dato ingresado correctamente</div>';  
                     }
                     if ($_GET['confirm'] === "2"){
                         echo '<div class="alert alert-danger" role="alert">Uno o mas campos estan vacios</div>';
